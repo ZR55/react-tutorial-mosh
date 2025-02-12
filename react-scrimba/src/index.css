@@ -73,6 +73,10 @@ button:focus-visible {
   justify-content: space-between;
 }
 
+.nav-logo {
+  width: 55px;
+}
+
 .nav-list {
   display: flex;
   list-style: none;
