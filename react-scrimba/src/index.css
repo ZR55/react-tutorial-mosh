@@ -67,6 +67,18 @@ button:focus-visible {
   }
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .nav-list {
+  display: flex;
   list-style: none;
+}
+
+.nav-list-item {
+  margin-right: 10px;
+  font-size: 1.1rem;
 }
