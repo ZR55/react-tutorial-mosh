@@ -1,34 +1,31 @@
-.inter-400 {
-  font-family: "Inter", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+* {
+  box-sizing: border-box;
 }
 
-.inter-600 {
-  font-family: "Inter", serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
 }
 
-.inter-700 {
-  font-family: "Inter", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+header {
+  height: 90px;
+  background-color: #21222a;
+  padding: 30px 25px;
 }
 
-.header {
+nav {
   display: flex;
   align-items: center;
+  height: 100%;
 }
 
-.nav-logo {
-  width: 50px;
-  padding-right: 10px;
+nav > img {
+  width: 40px;
+  margin-right: 7px;
 }
 
-.nav-title {
-  color: #00d8ff;
+nav > span {
+  color: #61dafb;
+  font-size: 1.4rem;
+  font-weight: 700;
 }

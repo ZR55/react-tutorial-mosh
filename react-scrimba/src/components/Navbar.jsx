@@ -11,14 +11,11 @@
 
 export default function Navbar() {
   return (
-    <header className="header inter-400">
-      <img
-        className="nav-logo"
-        src="./public/react-logo.png"
-        alt="React logo"
-      />
-      <h1 className="nav-title">ReactFacts</h1>
-      <nav></nav>
+    <header>
+      <nav>
+        <img src="./public/react-logo.png" alt="React logo" />
+        <span>ReactFacts</span>
+      </nav>
     </header>
   );
 }
