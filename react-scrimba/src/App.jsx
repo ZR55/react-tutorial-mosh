@@ -1,21 +1,13 @@
-import Header from "./Header"
-import MainContent from "./MainContent"
-import Footer from "./Footer"
-
-/**
- * Challenge: move the MainContent and Footer components to their own
- * separate files.
- */
+import Navbar from "./components/Navbar"
+import Main from "./components/Main"
 
 function App() {
   return (
       <>
-          <Header />
-          <MainContent />
-          <Footer />
+          <Navbar />
+          <Main />
       </>
   )
 }
-
 
 export default App
