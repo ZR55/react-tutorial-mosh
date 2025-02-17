@@ -18,3 +18,17 @@
   font-weight: 700;
   font-style: normal;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 50px;
+  padding-right: 10px;
+}
+
+.nav-title {
+  color: #00d8ff;
+}
